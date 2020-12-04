@@ -14,4 +14,8 @@ public class TransacaoService {
         return transacao;
     }
 
+    public void deleteAll() {
+        transacaoRepository.deleteAll();
+    }
+
 }

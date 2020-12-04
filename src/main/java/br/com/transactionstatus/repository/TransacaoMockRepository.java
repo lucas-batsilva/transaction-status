@@ -15,4 +15,8 @@ public class TransacaoMockRepository {
         this.transacoesMock.add(transacao);
     }
 
+    public void deleteAll() {
+        this.transacoesMock.clear();
+    }
+
 }
