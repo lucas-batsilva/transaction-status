@@ -19,4 +19,8 @@ public class TransacaoMockRepository {
         this.transacoesMock.clear();
     }
 
+    public List<Transacao> list() {
+        return this.transacoesMock;
+    }
+
 }
