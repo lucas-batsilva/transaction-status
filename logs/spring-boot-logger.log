@@ -1,0 +1,232 @@
+2020-12-06 02:43:56,805 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-12-06 02:43:56,806 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionStatusApplication using Java 15.0.1 on DESKTOP-05930LL with PID 11484 (C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status\target\classes started by lucas in C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status)
+2020-12-06 02:43:56,807 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-06 02:43:57,365 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-12-06 02:43:57,370 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-06 02:43:57,370 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-06 02:43:57,370 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-06 02:43:57,417 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-06 02:43:57,418 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 583 ms
+2020-12-06 02:43:57,555 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 02:43:57,704 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-06 02:43:57,719 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-12-06 02:43:57,730 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-06 02:43:57,741 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionStatusApplication in 1.156 seconds (JVM running for 1.49)
+2020-12-06 02:43:57,962 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-192.168.1.6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-06 02:43:57,962 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Initializing Servlet 'dispatcherServlet'
+2020-12-06 02:43:57,963 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Completed initialization in 0 ms
+2020-12-06 02:44:33,933 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-12-06 02:44:33,934 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionStatusApplication using Java 15.0.1 on DESKTOP-05930LL with PID 1832 (C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status\target\classes started by lucas in C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status)
+2020-12-06 02:44:33,935 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-06 02:44:34,500 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-12-06 02:44:34,505 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-06 02:44:34,505 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-06 02:44:34,505 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-06 02:44:34,552 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-06 02:44:34,553 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 589 ms
+2020-12-06 02:44:34,691 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 02:44:34,837 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-06 02:44:34,852 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-12-06 02:44:34,864 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-06 02:44:34,875 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionStatusApplication in 1.164 seconds (JVM running for 1.496)
+2020-12-06 02:44:34,879 INFO br.com.transactionstatus.TransactionStatusApplication [main] Sample INFO Message
+2020-12-06 02:44:34,879 WARN br.com.transactionstatus.TransactionStatusApplication [main] Sample WARN Message
+2020-12-06 02:44:34,879 ERROR br.com.transactionstatus.TransactionStatusApplication [main] Sample ERROR Message
+2020-12-06 02:44:35,085 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-192.168.1.6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-06 02:44:35,086 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-192.168.1.6] Initializing Servlet 'dispatcherServlet'
+2020-12-06 02:44:35,086 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-192.168.1.6] Completed initialization in 0 ms
+2020-12-06 02:47:05,722 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-12-06 02:47:05,723 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionStatusApplication using Java 15.0.1 on DESKTOP-05930LL with PID 8352 (C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status\target\classes started by lucas in C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status)
+2020-12-06 02:47:05,723 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-06 02:47:06,281 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-12-06 02:47:06,286 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-06 02:47:06,286 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-06 02:47:06,286 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-06 02:47:06,330 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-06 02:47:06,331 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 581 ms
+2020-12-06 02:47:06,467 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 02:47:06,605 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-06 02:47:06,620 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-12-06 02:47:06,631 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-06 02:47:06,642 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionStatusApplication in 1.139 seconds (JVM running for 1.462)
+2020-12-06 02:47:06,644 INFO br.com.transactionstatus.TransactionStatusApplication [main] A aplicação foi iniciada e já está apta a receber requisições
+2020-12-06 02:47:06,785 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-192.168.1.6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-06 02:47:06,785 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Initializing Servlet 'dispatcherServlet'
+2020-12-06 02:47:06,786 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Completed initialization in 1 ms
+2020-12-06 02:52:09,383 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-12-06 02:52:09,383 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionStatusApplication using Java 15.0.1 on DESKTOP-05930LL with PID 13160 (C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status\target\classes started by lucas in C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status)
+2020-12-06 02:52:09,384 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-06 02:52:09,962 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-12-06 02:52:09,967 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-06 02:52:09,967 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-06 02:52:09,967 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-06 02:52:10,014 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-06 02:52:10,014 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 601 ms
+2020-12-06 02:52:10,151 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 02:52:10,291 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-06 02:52:10,306 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-12-06 02:52:10,317 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-06 02:52:10,329 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionStatusApplication in 1.167 seconds (JVM running for 1.495)
+2020-12-06 02:52:10,332 INFO br.com.transactionstatus.TransactionStatusApplication [main] A aplicação foi iniciada e já está apta a receber requisições
+2020-12-06 02:52:10,526 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-192.168.1.6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-06 02:52:10,526 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Initializing Servlet 'dispatcherServlet'
+2020-12-06 02:52:10,527 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Completed initialization in 1 ms
+2020-12-06 02:52:32,238 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-1] A requisição foi recebida e está sendo processada
+2020-12-06 02:52:32,247 INFO br.com.transactionstatus.repository.TransacaoMockRepository [http-nio-8080-exec-1] A transação foi incluida com sucesso
+2020-12-06 02:59:39,841 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-12-06 02:59:39,843 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionStatusApplication using Java 15.0.1 on DESKTOP-05930LL with PID 7160 (C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status\target\classes started by lucas in C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status)
+2020-12-06 02:59:39,843 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-06 02:59:40,417 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-12-06 02:59:40,422 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-06 02:59:40,422 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-06 02:59:40,423 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-06 02:59:40,465 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-06 02:59:40,465 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 593 ms
+2020-12-06 02:59:40,606 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 02:59:40,747 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-06 02:59:40,763 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-12-06 02:59:40,774 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-06 02:59:40,785 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionStatusApplication in 1.164 seconds (JVM running for 1.489)
+2020-12-06 02:59:40,789 INFO br.com.transactionstatus.TransactionStatusApplication [main] A aplicação foi iniciada e já está apta a receber requisições
+2020-12-06 02:59:41,006 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-192.168.1.6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-06 02:59:41,007 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-192.168.1.6] Initializing Servlet 'dispatcherServlet'
+2020-12-06 02:59:41,007 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-192.168.1.6] Completed initialization in 0 ms
+2020-12-06 02:59:53,278 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-2] Ocorreu o seguinte erro durante a inserção da transação: [br.com.transactionstatus.dto.validation.ErrorValidationDTO@4750aec]
+2020-12-06 03:00:14,856 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-12-06 03:00:14,858 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionStatusApplication using Java 15.0.1 on DESKTOP-05930LL with PID 7176 (C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status\target\classes started by lucas in C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status)
+2020-12-06 03:00:14,859 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-06 03:00:15,455 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-12-06 03:00:15,460 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-06 03:00:15,460 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-06 03:00:15,460 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-06 03:00:15,501 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-06 03:00:15,501 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 607 ms
+2020-12-06 03:00:15,646 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 03:00:15,790 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-06 03:00:15,805 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-12-06 03:00:15,816 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-06 03:00:15,827 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionStatusApplication in 1.197 seconds (JVM running for 1.516)
+2020-12-06 03:00:15,830 INFO br.com.transactionstatus.TransactionStatusApplication [main] A aplicação foi iniciada e já está apta a receber requisições
+2020-12-06 03:00:16,000 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-192.168.1.6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-06 03:00:16,000 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-192.168.1.6] Initializing Servlet 'dispatcherServlet'
+2020-12-06 03:00:16,001 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-192.168.1.6] Completed initialization in 1 ms
+2020-12-06 03:00:18,256 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-2] Ocorreu o seguinte erro durante a inserção da transação: [br.com.transactionstatus.dto.validation.ErrorValidationDTO@6be9bd19]
+2020-12-06 03:01:38,853 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-12-06 03:01:38,857 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionStatusApplication using Java 15.0.1 on DESKTOP-05930LL with PID 8096 (C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status\target\classes started by lucas in C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status)
+2020-12-06 03:01:38,858 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-06 03:01:39,433 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-12-06 03:01:39,437 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-06 03:01:39,438 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-06 03:01:39,438 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-06 03:01:39,482 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-06 03:01:39,482 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 593 ms
+2020-12-06 03:01:39,621 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 03:01:39,763 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-06 03:01:39,778 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-12-06 03:01:39,790 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-06 03:01:39,801 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionStatusApplication in 1.182 seconds (JVM running for 1.504)
+2020-12-06 03:01:39,804 INFO br.com.transactionstatus.TransactionStatusApplication [main] A aplicação foi iniciada e já está apta a receber requisições
+2020-12-06 03:01:39,958 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-192.168.1.6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-06 03:01:39,958 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Initializing Servlet 'dispatcherServlet'
+2020-12-06 03:01:39,959 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Completed initialization in 0 ms
+2020-12-06 03:01:42,843 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-2] Ocorreu o seguinte erro durante a inserção da transação: deve ser maior ou igual a 0
+2020-12-06 03:02:17,344 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-12-06 03:02:17,346 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionStatusApplication using Java 15.0.1 on DESKTOP-05930LL with PID 12932 (C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status\target\classes started by lucas in C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status)
+2020-12-06 03:02:17,346 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-06 03:02:17,906 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-12-06 03:02:17,911 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-06 03:02:17,911 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-06 03:02:17,911 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-06 03:02:17,958 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-06 03:02:17,958 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 583 ms
+2020-12-06 03:02:18,097 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 03:02:18,240 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-06 03:02:18,256 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-12-06 03:02:18,267 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-06 03:02:18,278 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionStatusApplication in 1.157 seconds (JVM running for 1.486)
+2020-12-06 03:02:18,281 INFO br.com.transactionstatus.TransactionStatusApplication [main] A aplicação foi iniciada e já está apta a receber requisições
+2020-12-06 03:02:18,469 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-192.168.1.6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-06 03:02:18,469 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Initializing Servlet 'dispatcherServlet'
+2020-12-06 03:02:18,470 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Completed initialization in 0 ms
+2020-12-06 03:02:22,658 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-2] Ocorreu o seguinte erro durante a inserção da transação: valor deve ser maior ou igual a 0
+2020-12-06 03:02:49,462 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-3] Ocorreu o seguinte erro durante a inserção da transação: dataHora deve ser uma data passada
+2020-12-06 03:02:49,462 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-3] Ocorreu o seguinte erro durante a inserção da transação: valor deve ser maior ou igual a 0
+2020-12-06 03:03:04,551 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-4] Ocorreu o seguinte erro durante a inserção da transação: dataHora deve ser uma data passada
+2020-12-06 03:03:04,552 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-4] Ocorreu o seguinte erro durante a inserção da transação: valor deve ser maior ou igual a 0
+2020-12-06 03:04:37,808 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-12-06 03:04:37,809 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionStatusApplication using Java 15.0.1 on DESKTOP-05930LL with PID 13064 (C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status\target\classes started by lucas in C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status)
+2020-12-06 03:04:37,809 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-06 03:04:38,380 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-12-06 03:04:38,385 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-06 03:04:38,385 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-06 03:04:38,385 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-06 03:04:38,432 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-06 03:04:38,432 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 596 ms
+2020-12-06 03:04:38,570 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 03:04:38,714 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-06 03:04:38,729 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-12-06 03:04:38,740 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-06 03:04:38,751 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionStatusApplication in 1.169 seconds (JVM running for 1.494)
+2020-12-06 03:04:38,754 INFO br.com.transactionstatus.TransactionStatusApplication [main] A aplicação foi iniciada e já está apta a receber requisições
+2020-12-06 03:04:38,980 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-192.168.1.6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-06 03:04:38,981 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-192.168.1.6] Initializing Servlet 'dispatcherServlet'
+2020-12-06 03:04:38,981 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-192.168.1.6] Completed initialization in 0 ms
+2020-12-06 03:04:44,638 INFO br.com.transactionstatus.repository.TransacaoMockRepository [http-nio-8080-exec-2] Todas as transações foram excluídas
+2020-12-06 03:04:53,022 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-3] Ocorreu o seguinte erro durante a inserção da transação: dataHora deve ser uma data passada
+2020-12-06 03:04:53,022 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-3] Ocorreu o seguinte erro durante a inserção da transação: valor deve ser maior ou igual a 0
+2020-12-06 03:05:01,197 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-4] A requisição foi recebida e está sendo processada
+2020-12-06 03:05:01,198 INFO br.com.transactionstatus.repository.TransacaoMockRepository [http-nio-8080-exec-4] A transação recebida foi incluida com sucesso
+2020-12-06 03:09:03,314 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-12-06 03:09:03,316 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionStatusApplication using Java 15.0.1 on DESKTOP-05930LL with PID 8312 (C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status\target\classes started by lucas in C:\Users\lucas\OneDrive\Área de Trabalho\Nasd\transaction-status)
+2020-12-06 03:09:03,316 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-06 03:09:03,893 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-12-06 03:09:03,898 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-06 03:09:03,898 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-06 03:09:03,898 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-06 03:09:03,945 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-06 03:09:03,945 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 600 ms
+2020-12-06 03:09:04,084 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 03:09:04,227 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-06 03:09:04,242 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-12-06 03:09:04,254 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-06 03:09:04,265 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionStatusApplication in 1.168 seconds (JVM running for 1.499)
+2020-12-06 03:09:04,268 INFO br.com.transactionstatus.TransactionStatusApplication [main] A aplicação foi iniciada e já está apta a receber requisições
+2020-12-06 03:09:04,443 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-192.168.1.6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-06 03:09:04,443 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Initializing Servlet 'dispatcherServlet'
+2020-12-06 03:09:04,444 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.6] Completed initialization in 0 ms
+2020-12-06 03:09:23,774 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-2] Ocorreu o seguinte erro durante a inserção da transação: dataHora deve ser uma data passada
+2020-12-06 03:09:27,969 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-3] Ocorreu o seguinte erro durante a inserção da transação: dataHora deve ser uma data passada
+2020-12-06 03:09:28,760 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-4] Ocorreu o seguinte erro durante a inserção da transação: dataHora deve ser uma data passada
+2020-12-06 03:09:29,320 ERROR br.com.transactionstatus.configuration.validation.ErrorValidationHandler [http-nio-8080-exec-5] Ocorreu o seguinte erro durante a inserção da transação: dataHora deve ser uma data passada
+2020-12-06 03:09:32,358 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-6] A requisição foi recebida e está sendo processada
+2020-12-06 03:09:32,358 INFO br.com.transactionstatus.repository.TransacaoMockRepository [http-nio-8080-exec-6] A transação recebida foi incluida com sucesso
+2020-12-06 03:09:45,373 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-7] A requisição foi recebida e está sendo processada
+2020-12-06 03:09:45,380 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-7] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:09:58,176 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-8] A requisição foi recebida e está sendo processada
+2020-12-06 03:09:58,177 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-8] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:00,133 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-9] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:00,134 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-9] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:02,144 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-10] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:02,144 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-10] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:07,307 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-1] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:07,308 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-1] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:15,542 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-2] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:15,542 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-2] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:16,380 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-3] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:16,380 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-3] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:26,244 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-4] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:26,244 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-4] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:27,589 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-5] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:27,589 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-5] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:33,161 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-6] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:33,161 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-6] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:34,788 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-7] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:34,788 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-7] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:35,985 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-8] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:35,986 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-8] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:37,229 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-9] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:37,229 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-9] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:38,281 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-10] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:38,282 INFO br.com.transactionstatus.service.TransacaoService [http-nio-8080-exec-10] Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição
+2020-12-06 03:10:51,009 INFO br.com.transactionstatus.controller.TransacaoController [http-nio-8080-exec-1] A requisição foi recebida e está sendo processada
+2020-12-06 03:10:51,009 INFO br.com.transactionstatus.repository.TransacaoMockRepository [http-nio-8080-exec-1] Todas as transações foram excluídas com sucesso

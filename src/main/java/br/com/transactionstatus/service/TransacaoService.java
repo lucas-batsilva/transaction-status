@@ -10,11 +10,15 @@ import java.time.temporal.ChronoUnit;
 import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Service
 public class TransacaoService {
 
     TransacaoMockRepository transacaoRepository = new TransacaoMockRepository();
+
+    private Logger logger = LoggerFactory.getLogger(TransacaoService.class);
 
     public Transacao create(Transacao transacao) {
         transacaoRepository.save(transacao);
@@ -51,7 +55,7 @@ public class TransacaoService {
             statisticsDTO.setMin(doubleSummaryStatistics.getMin());
             statisticsDTO.setMax(doubleSummaryStatistics.getMax());
         }
-        
+        logger.info("Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição");
         return statisticsDTO;
 
     }
