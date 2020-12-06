@@ -35,6 +35,8 @@ public class TransacaoService {
 
     public StatisticsDTO returnStatistic(Long quantidadeSegundos) {
 
+        Long tempoInicial = System.currentTimeMillis();
+
         OffsetDateTime dataHoraMenosQuantidadeSegundos = OffsetDateTime.now().minus(quantidadeSegundos, ChronoUnit.SECONDS);
 
         List<Transacao> transacoesUltimosSegundos = list().stream()
@@ -55,7 +57,9 @@ public class TransacaoService {
             statisticsDTO.setMin(doubleSummaryStatistics.getMin());
             statisticsDTO.setMax(doubleSummaryStatistics.getMax());
         }
-        logger.info("Calculos realizados com sucesso, os resultados serão retornados como resposta à requisição");
+        logger.info("Calculos estatísticos concluídos");
+        logger.info("Tempo gasto para a realização dos calculos: " +
+                ((System.currentTimeMillis() - tempoInicial) / 1000d) + " segundos");
         return statisticsDTO;
 
     }
