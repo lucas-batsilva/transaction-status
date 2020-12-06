@@ -33,9 +33,10 @@ public class TransacaoController {
     }
 
     @GetMapping("/estatistica")
-    public ResponseEntity<?> returnStatistic() {
+    public ResponseEntity<?> returnStatistic(@RequestParam(required = false) Long quantidadeSegundos) {
         logger.info("A requisição foi recebida e está sendo processada");
-        return new ResponseEntity<>(transacaoService.returnStatistic(), HttpStatus.OK);
+        return new ResponseEntity<>(transacaoService.returnStatistic(quantidadeSegundos != null ? quantidadeSegundos : 60),
+                HttpStatus.OK);
     }
 
 }

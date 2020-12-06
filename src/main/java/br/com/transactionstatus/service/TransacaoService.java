@@ -33,15 +33,15 @@ public class TransacaoService {
         return transacaoRepository.list();
     }
 
-    public StatisticsDTO returnStatistic() {
+    public StatisticsDTO returnStatistic(Long quantidadeSegundos) {
 
-        OffsetDateTime dataHoraUltimoMinuto = OffsetDateTime.now().minus(60, ChronoUnit.SECONDS);
+        OffsetDateTime dataHoraMenosQuantidadeSegundos = OffsetDateTime.now().minus(quantidadeSegundos, ChronoUnit.SECONDS);
 
-        List<Transacao> transacoesUltimoMinuto = list().stream()
-                .filter(t -> t.getDataHora().isAfter(dataHoraUltimoMinuto))
+        List<Transacao> transacoesUltimosSegundos = list().stream()
+                .filter(t -> t.getDataHora().isAfter(dataHoraMenosQuantidadeSegundos))
                 .collect(Collectors.toList());
 
-        DoubleSummaryStatistics doubleSummaryStatistics = transacoesUltimoMinuto.stream()
+        DoubleSummaryStatistics doubleSummaryStatistics = transacoesUltimosSegundos.stream()
                 .mapToDouble(t -> t.getValor().doubleValue()).summaryStatistics();
 
         StatisticsDTO statisticsDTO = new StatisticsDTO();
