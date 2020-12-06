@@ -9,11 +9,17 @@
 ### Features
 
 * Inserção de transações
-  * Aceessando o endpoint: http://localhost:8080/api/transacao / POST, é possível incluir uma nova transação, que é enviada no formato JSON e servirá de entrada para os calculos estatísticos. Caso a inserção seja realizada com exito, é retornado um JSON com os dados da transação que foi inserida, e a resposta da requisição terá o status 201.
+  * Acessando o endpoint: http://localhost:8080/api/transacao / POST, é possível incluir uma nova transação, que é enviada no formato JSON e servirá de entrada para os calculos estatísticos. Caso a inserção seja realizada com exito, é retornado um JSON com os dados da transação que foi inserida, e a resposta da requisição terá o status 201.
+  * ![insert](https://user-images.githubusercontent.com/32377593/101294578-15f8aa80-37f7-11eb-95c2-044f1120a56f.jpg)
+
 * Exclusão de transações
   * Acessando o endpoint: http://localhost:8080/api/transacao / DELETE, é possível deletar todas as transações. Caso a exclusão seja realizada com exito, a resposta da requisição terá o status 200.
+  ![delete](https://user-images.githubusercontent.com/32377593/101294588-2c066b00-37f7-11eb-8b55-034000096f3b.jpg)  
+
 * Listagem de estatisticas sobre as transações
-  * Acessando o endpoint: http://localhost:8080/api/transacoes / GET, é possível visualizar dados estatísticos das ultimas transações inseridas. É possível enviar um parametro de requisição para retornar apenas as transações que aconteceram nos ultimos x segundos. Como resposta, retorna-se um json que possui os campos: count = quantidade de transações, sum = somatória dos valores das transações, avg = média dos valores das transações, min = valor mínimo dentre as transações e max = valor máximo dentre as transações.
+  * Acessando o endpoint: http://localhost:8080/api/transacoes / GET, é possível visualizar dados estatísticos das ultimas transações inseridas. É possível enviar o parametro de requisição "quantidadeSegundos" para retornar apenas as transações que aconteceram nos ultimos x segundos (caso não seja passado entende-se 60 segundos por padrão). Como resposta, retorna-se um json que possui os campos: count = quantidade de transações, sum = somatória dos valores das transações, avg = média dos valores das transações, min = valor mínimo dentre as transações e max = valor máximo dentre as transações.
+  ![estat](https://user-images.githubusercontent.com/32377593/101294632-7e478c00-37f7-11eb-85e8-71931b2c6b5b.jpg)
+
 
 ### Observabilidade
 
