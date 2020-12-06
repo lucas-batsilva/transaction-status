@@ -10,11 +10,15 @@ import java.time.temporal.ChronoUnit;
 import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Service
 public class TransacaoService {
 
     TransacaoMockRepository transacaoRepository = new TransacaoMockRepository();
+
+    private Logger logger = LoggerFactory.getLogger(TransacaoService.class);
 
     public Transacao create(Transacao transacao) {
         transacaoRepository.save(transacao);
@@ -29,15 +33,17 @@ public class TransacaoService {
         return transacaoRepository.list();
     }
 
-    public StatisticsDTO returnStatistic() {
+    public StatisticsDTO returnStatistic(Long quantidadeSegundos) {
 
-        OffsetDateTime dataHoraUltimoMinuto = OffsetDateTime.now().minus(60, ChronoUnit.SECONDS);
+        Long tempoInicial = System.currentTimeMillis();
 
-        List<Transacao> transacoesUltimoMinuto = list().stream()
-                .filter(t -> t.getDataHora().isAfter(dataHoraUltimoMinuto))
+        OffsetDateTime dataHoraMenosQuantidadeSegundos = OffsetDateTime.now().minus(quantidadeSegundos, ChronoUnit.SECONDS);
+
+        List<Transacao> transacoesUltimosSegundos = list().stream()
+                .filter(t -> t.getDataHora().isAfter(dataHoraMenosQuantidadeSegundos))
                 .collect(Collectors.toList());
 
-        DoubleSummaryStatistics doubleSummaryStatistics = transacoesUltimoMinuto.stream()
+        DoubleSummaryStatistics doubleSummaryStatistics = transacoesUltimosSegundos.stream()
                 .mapToDouble(t -> t.getValor().doubleValue()).summaryStatistics();
 
         StatisticsDTO statisticsDTO = new StatisticsDTO();
@@ -51,7 +57,9 @@ public class TransacaoService {
             statisticsDTO.setMin(doubleSummaryStatistics.getMin());
             statisticsDTO.setMax(doubleSummaryStatistics.getMax());
         }
-        
+        logger.info("Calculos estatísticos concluídos");
+        logger.info("Tempo gasto para a realização dos calculos: " +
+                ((System.currentTimeMillis() - tempoInicial) / 1000d) + " segundos");
         return statisticsDTO;
 
     }

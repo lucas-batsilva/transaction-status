@@ -14,6 +14,8 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 @RestControllerAdvice
@@ -21,6 +23,8 @@ public class ErrorValidationHandler {
 
     @Autowired
     private MessageSource messageSource;
+
+    private Logger logger = LoggerFactory.getLogger(ErrorValidationHandler.class);
 
     @ResponseStatus(code = HttpStatus.UNPROCESSABLE_ENTITY)
     @ExceptionHandler(MethodArgumentNotValidException.class)
@@ -31,6 +35,7 @@ public class ErrorValidationHandler {
         fieldErrors.forEach(e -> {
             String message= messageSource.getMessage(e, LocaleContextHolder.getLocale());
             ErrorValidationDTO erro = new ErrorValidationDTO(e.getField(), message);
+            logger.error("Ocorreu o seguinte erro durante a inserção da transação: " + e.getField() + " " + message);
             dto.add(erro);
         });
         exdto.setMessage(dto);
